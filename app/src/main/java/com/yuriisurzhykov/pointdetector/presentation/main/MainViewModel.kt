@@ -31,7 +31,7 @@ class MainViewModel @Inject constructor(
 
     fun importData() {
         dispatchers.launchBackground(viewModelScope) {
-            importDataUseCase.saveImports("sample1.json")
+            importDataUseCase.saveImports("sacramento_points.json")
         }
     }
 }
