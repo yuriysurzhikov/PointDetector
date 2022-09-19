@@ -2,7 +2,7 @@ package com.yuriisurzhykov.pointdetector.di
 
 import android.location.Address
 import com.yuriisurzhykov.pointdetector.core.Mapper
-import com.yuriisurzhykov.pointdetector.data.cache.entities.LatLng
+import com.yuriisurzhykov.pointdetector.data.common.entities.LatLng
 import com.yuriisurzhykov.pointdetector.data.cache.entities.PointCache
 import com.yuriisurzhykov.pointdetector.data.cache.entities.WorkingHoursCache
 import com.yuriisurzhykov.pointdetector.data.remote.DistanceCalculateService

@@ -1,4 +1,4 @@
-package com.yuriisurzhykov.pointdetector.data.cache.entities
+package com.yuriisurzhykov.pointdetector.data.common.entities
 
 import java.io.Serializable
 

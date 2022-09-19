@@ -3,19 +3,16 @@ package com.yuriisurzhykov.pointdetector.di
 import android.content.Context
 import com.yuriisurzhykov.pointdetector.core.Dispatchers
 import com.yuriisurzhykov.pointdetector.core.Mapper
-import com.yuriisurzhykov.pointdetector.data.cache.configs.SortingTypeConfig
-import com.yuriisurzhykov.pointdetector.data.cache.entities.LatLng
+import com.yuriisurzhykov.pointdetector.data.common.entities.LatLng
 import com.yuriisurzhykov.pointdetector.data.remote.DistanceCalculateService
 import com.yuriisurzhykov.pointdetector.data.remote.LocalDistanceCalculateService
 import com.yuriisurzhykov.pointdetector.domain.services.IUserLocationService
-import com.yuriisurzhykov.pointdetector.domain.services.PointsSortingTypeService
 import com.yuriisurzhykov.pointdetector.domain.services.UserLocationService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import kotlinx.coroutines.runBlocking
 import javax.inject.Singleton
 
 @Module

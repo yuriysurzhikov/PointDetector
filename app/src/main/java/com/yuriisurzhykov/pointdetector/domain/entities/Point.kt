@@ -1,6 +1,6 @@
 package com.yuriisurzhykov.pointdetector.domain.entities
 
-import com.yuriisurzhykov.pointdetector.data.cache.entities.LatLng
+import com.yuriisurzhykov.pointdetector.data.common.entities.LatLng
 import com.yuriisurzhykov.pointsdetector.uicomponents.list.ViewHolderItem
 import com.yuriisurzhykov.pointsdetector.uicomponents.WeekDay
 import java.io.Serializable
